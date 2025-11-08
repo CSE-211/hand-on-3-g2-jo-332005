@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Final HTML Activity</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+        .main-section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .my-photo {
+            width: 250px;
+            border-radius: 10px;
+        }
+        .caption {
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-section">
+        <h1 id="main-title">Welcome to My Web Page</h1>
+        <h2>About Me</h2>
+        <p>Hello! My name is <strong>Youssef Atta</strong>, and this is my final HTML activity. I'm learning how to build complete web pages using HTML.</p>
+        
+        <h3>My Interests</h3>
+        <ul class="my-list">
+            <li>Coding</li>
+            <li>Cybersecurity</li>
+            <li>Technology</li>
+        </ul>
+
+        <h3>My Photo</h3>
+       
+        <figure>
+            <img src="IMG_0033.jpg" alt="My Photo" class="my-photo">
+            <figcaption class="caption">This is me!</figcaption>
+        </figure>
+
+        <h3>My Video</h3>
+      
+        <video controls width="400">
+            <source src="IMG_1313.mp4" type="video/mp4">
+            <track src="subtitles.vtt" kind="subtitles" srclang="en" label="English">
+            Your browser does not support the video tag.
+        </video>
+
+        <h3>My Audio</h3>
+       
+        <audio controls>
+            <source src="New Recording.mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</body>
+</html>
